@@ -32,11 +32,38 @@ header {
     z-index: 100;
 }
 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: #0366d6;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
+}
+
+.lang-toggle {
+    background-color: #0366d6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.lang-toggle:hover {
+    background-color: #0256c7;
+}
+
+.lang-toggle:active {
+    transform: scale(0.98);
 }
 
 .nav-links {

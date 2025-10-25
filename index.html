@@ -10,13 +10,19 @@
     <header>
         <nav>
             <div class="container">
-                <h1 class="logo">CNGTX-Scientific</h1>
+                <div class="nav-header">
+                    <h1 class="logo">CNGTX-Scientific</h1>
+                    <button id="langToggle" class="lang-toggle">
+                        <span class="lang-en">中文</span>
+                        <span class="lang-zh" style="display: none;">English</span>
+                    </button>
+                </div>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#applications">Applications</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" data-en="Home" data-zh="首页">Home</a></li>
+                    <li><a href="#product" data-en="Product" data-zh="产品">Product</a></li>
+                    <li><a href="#features" data-en="Features" data-zh="特性">Features</a></li>
+                    <li><a href="#applications" data-en="Applications" data-zh="应用">Applications</a></li>
+                    <li><a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -25,63 +31,91 @@
     <main>
         <section id="home" class="hero">
             <div class="container">
-                <h1>Spinning Drop Tensometer</h1>
-                <p class="subtitle">Precision Interfacial Tension Measurement for Scientific Excellence</p>
+                <h1 class="lang-en">Spinning Drop Tensometer</h1>
+                <h1 class="lang-zh" style="display: none;">旋转滴界面张力仪</h1>
+                <p class="subtitle lang-en">Precision Interfacial Tension Measurement for Scientific Excellence</p>
+                <p class="subtitle lang-zh" style="display: none;">精密界面张力测量 成就科学卓越</p>
                 <div class="hero-content">
-                    <p>Welcome to CNGTX-Scientific, your trusted partner in advanced surface and interfacial tension measurement technology. Our state-of-the-art Spinning Drop Tensometer represents the gold standard for ultra-low interfacial tension measurements.</p>
+                    <p class="lang-en">Welcome to CNGTX-Scientific, your trusted partner in advanced surface and interfacial tension measurement technology. Our state-of-the-art Spinning Drop Tensometer represents the gold standard for ultra-low interfacial tension measurements.</p>
+                    <p class="lang-zh" style="display: none;">欢迎来到CNGTX科技，您值得信赖的先进表面和界面张力测量技术合作伙伴。我们的先进旋转滴界面张力仪代表了超低界面张力测量的黄金标准。</p>
                 </div>
             </div>
         </section>
 
         <section id="product" class="section">
             <div class="container">
-                <h2>What is a Spinning Drop Tensometer?</h2>
-                <p>The Spinning Drop Tensometer is a sophisticated analytical instrument designed to measure ultra-low interfacial tension between two immiscible liquids. Based on the spinning drop method, this technique is particularly valuable when conventional methods reach their detection limits.</p>
+                <h2 class="lang-en">What is a Spinning Drop Tensometer?</h2>
+                <h2 class="lang-zh" style="display: none;">什么是旋转滴界面张力仪？</h2>
+                <p class="lang-en">The Spinning Drop Tensometer is a sophisticated analytical instrument designed to measure ultra-low interfacial tension between two immiscible liquids. Based on the spinning drop method, this technique is particularly valuable when conventional methods reach their detection limits.</p>
+                <p class="lang-zh" style="display: none;">旋转滴界面张力仪是一种精密的分析仪器，专为测量两种不相溶液体之间的超低界面张力而设计。基于旋转滴法，当传统方法达到其检测极限时，该技术特别有价值。</p>
 
-                <h3>Operating Principle</h3>
-                <p>The instrument operates on a fundamental principle:</p>
-                <ol>
+                <h3 class="lang-en">Operating Principle</h3>
+                <h3 class="lang-zh" style="display: none;">工作原理</h3>
+                <p class="lang-en">The instrument operates on a fundamental principle:</p>
+                <p class="lang-zh" style="display: none;">该仪器基于以下基本原理运行：</p>
+                <ol class="lang-en">
                     <li>A droplet of less dense liquid is placed in a rotating tube filled with a denser liquid</li>
                     <li>As the tube rotates at high speed, centrifugal forces elongate the droplet</li>
                     <li>The droplet shape reaches equilibrium between centrifugal force and interfacial tension</li>
                     <li>By measuring the droplet dimensions and rotation speed, interfacial tension is calculated using the Vonnegut equation</li>
                 </ol>
+                <ol class="lang-zh" style="display: none;">
+                    <li>将密度较小的液体滴入充满密度较大液体的旋转管中</li>
+                    <li>当管子高速旋转时，离心力使液滴拉长</li>
+                    <li>液滴形状在离心力和界面张力之间达到平衡</li>
+                    <li>通过测量液滴尺寸和旋转速度，使用Vonnegut方程计算界面张力</li>
+                </ol>
 
                 <div class="equation">
-                    <p><strong>Vonnegut Equation:</strong></p>
+                    <p class="lang-en"><strong>Vonnegut Equation:</strong></p>
+                    <p class="lang-zh" style="display: none;"><strong>Vonnegut方程：</strong></p>
                     <code>γ = ΔρR³ω² / 4</code>
-                    <p class="equation-description">where γ is interfacial tension, Δρ is density difference, R is droplet radius, and ω is angular velocity</p>
+                    <p class="equation-description lang-en">where γ is interfacial tension, Δρ is density difference, R is droplet radius, and ω is angular velocity</p>
+                    <p class="equation-description lang-zh" style="display: none;">其中 γ 是界面张力，Δρ 是密度差，R 是液滴半径，ω 是角速度</p>
                 </div>
             </div>
         </section>
 
         <section id="features" class="section alternate">
             <div class="container">
-                <h2>Key Features</h2>
+                <h2 class="lang-en">Key Features</h2>
+                <h2 class="lang-zh" style="display: none;">主要特性</h2>
                 <ul class="feature-list">
                     <li>
-                        <h3>Ultra-Low Detection Range</h3>
-                        <p>Measures interfacial tension as low as 10⁻⁴ to 10⁻² mN/m, far below conventional tensiometer capabilities</p>
+                        <h3 class="lang-en">Ultra-Low Detection Range</h3>
+                        <h3 class="lang-zh" style="display: none;">超低检测范围</h3>
+                        <p class="lang-en">Measures interfacial tension as low as 10⁻⁴ to 10⁻² mN/m, far below conventional tensiometer capabilities</p>
+                        <p class="lang-zh" style="display: none;">可测量低至 10⁻⁴ 至 10⁻² mN/m 的界面张力，远低于传统张力计的能力</p>
                     </li>
                     <li>
-                        <h3>High Precision Temperature Control</h3>
-                        <p>Advanced temperature regulation system (±0.1°C) ensures accurate measurements across a wide temperature range (5°C to 90°C)</p>
+                        <h3 class="lang-en">High Precision Temperature Control</h3>
+                        <h3 class="lang-zh" style="display: none;">高精度温度控制</h3>
+                        <p class="lang-en">Advanced temperature regulation system (±0.1°C) ensures accurate measurements across a wide temperature range (5°C to 90°C)</p>
+                        <p class="lang-zh" style="display: none;">先进的温度调节系统（±0.1°C）确保在宽温度范围内（5°C 至 90°C）进行精确测量</p>
                     </li>
                     <li>
-                        <h3>Automated Image Analysis</h3>
-                        <p>Built-in high-resolution camera and sophisticated software automatically detect droplet dimensions and calculate interfacial tension in real-time</p>
+                        <h3 class="lang-en">Automated Image Analysis</h3>
+                        <h3 class="lang-zh" style="display: none;">自动图像分析</h3>
+                        <p class="lang-en">Built-in high-resolution camera and sophisticated software automatically detect droplet dimensions and calculate interfacial tension in real-time</p>
+                        <p class="lang-zh" style="display: none;">内置高分辨率相机和先进软件，自动检测液滴尺寸并实时计算界面张力</p>
                     </li>
                     <li>
-                        <h3>Variable Speed Control</h3>
-                        <p>Precision motor with adjustable rotation speed (1,000 to 10,000 RPM) optimizes measurement for different fluid systems</p>
+                        <h3 class="lang-en">Variable Speed Control</h3>
+                        <h3 class="lang-zh" style="display: none;">可变速度控制</h3>
+                        <p class="lang-en">Precision motor with adjustable rotation speed (1,000 to 10,000 RPM) optimizes measurement for different fluid systems</p>
+                        <p class="lang-zh" style="display: none;">精密电机具有可调旋转速度（1,000 至 10,000 RPM），可优化不同流体系统的测量</p>
                     </li>
                     <li>
-                        <h3>User-Friendly Interface</h3>
-                        <p>Intuitive touchscreen interface with data export capabilities for seamless integration with laboratory workflows</p>
+                        <h3 class="lang-en">User-Friendly Interface</h3>
+                        <h3 class="lang-zh" style="display: none;">用户友好界面</h3>
+                        <p class="lang-en">Intuitive touchscreen interface with data export capabilities for seamless integration with laboratory workflows</p>
+                        <p class="lang-zh" style="display: none;">直观的触摸屏界面，具有数据导出功能，可无缝集成到实验室工作流程中</p>
                     </li>
                     <li>
-                        <h3>Minimal Sample Volume</h3>
-                        <p>Requires only microliters of sample, ideal for precious or limited-quantity substances</p>
+                        <h3 class="lang-en">Minimal Sample Volume</h3>
+                        <h3 class="lang-zh" style="display: none;">最小样品体积</h3>
+                        <p class="lang-en">Requires only microliters of sample, ideal for precious or limited-quantity substances</p>
+                        <p class="lang-zh" style="display: none;">仅需微升样品，非常适合珍贵或限量物质</p>
                     </li>
                 </ul>
             </div>
@@ -89,50 +123,83 @@
 
         <section id="applications" class="section">
             <div class="container">
-                <h2>Applications</h2>
-                <p>The Spinning Drop Tensometer is essential in various research and industrial fields:</p>
+                <h2 class="lang-en">Applications</h2>
+                <h2 class="lang-zh" style="display: none;">应用领域</h2>
+                <p class="lang-en">The Spinning Drop Tensometer is essential in various research and industrial fields:</p>
+                <p class="lang-zh" style="display: none;">旋转滴界面张力仪在各种研究和工业领域中至关重要：</p>
 
-                <h3>Enhanced Oil Recovery (EOR)</h3>
-                <ul>
+                <h3 class="lang-en">Enhanced Oil Recovery (EOR)</h3>
+                <h3 class="lang-zh" style="display: none;">提高采收率 (EOR)</h3>
+                <ul class="lang-en">
                     <li>Evaluation of surfactant formulations for chemical flooding</li>
                     <li>Optimization of microemulsion systems</li>
                     <li>Assessment of polymer-surfactant interactions</li>
                 </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li>评估化学驱油用表面活性剂配方</li>
+                    <li>微乳液系统优化</li>
+                    <li>聚合物-表面活性剂相互作用评估</li>
+                </ul>
 
-                <h3>Surfactant Research</h3>
-                <ul>
+                <h3 class="lang-en">Surfactant Research</h3>
+                <h3 class="lang-zh" style="display: none;">表面活性剂研究</h3>
+                <ul class="lang-en">
                     <li>Characterization of novel surfactant molecules</li>
                     <li>Study of surfactant efficiency and performance</li>
                     <li>Critical micelle concentration (CMC) determination</li>
                 </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li>新型表面活性剂分子表征</li>
+                    <li>表面活性剂效率和性能研究</li>
+                    <li>临界胶束浓度（CMC）测定</li>
+                </ul>
 
-                <h3>Pharmaceutical Development</h3>
-                <ul>
+                <h3 class="lang-en">Pharmaceutical Development</h3>
+                <h3 class="lang-zh" style="display: none;">制药开发</h3>
+                <ul class="lang-en">
                     <li>Emulsion stability studies</li>
                     <li>Drug delivery system optimization</li>
                     <li>Biocompatibility assessment of formulations</li>
                 </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li>乳液稳定性研究</li>
+                    <li>药物递送系统优化</li>
+                    <li>制剂生物相容性评估</li>
+                </ul>
 
-                <h3>Food Science</h3>
-                <ul>
+                <h3 class="lang-en">Food Science</h3>
+                <h3 class="lang-zh" style="display: none;">食品科学</h3>
+                <ul class="lang-en">
                     <li>Emulsifier performance evaluation</li>
                     <li>Quality control of food emulsions</li>
                     <li>Protein functionality studies</li>
                 </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li>乳化剂性能评估</li>
+                    <li>食品乳液质量控制</li>
+                    <li>蛋白质功能研究</li>
+                </ul>
 
-                <h3>Environmental Science</h3>
-                <ul>
+                <h3 class="lang-en">Environmental Science</h3>
+                <h3 class="lang-zh" style="display: none;">环境科学</h3>
+                <ul class="lang-en">
                     <li>Bioremediation process optimization</li>
                     <li>Soil-water interaction studies</li>
                     <li>Pollution dispersion modeling</li>
+                </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li>生物修复过程优化</li>
+                    <li>土壤-水相互作用研究</li>
+                    <li>污染扩散建模</li>
                 </ul>
             </div>
         </section>
 
         <section id="specifications" class="section alternate">
             <div class="container">
-                <h2>Technical Specifications</h2>
-                <table class="specs-table">
+                <h2 class="lang-en">Technical Specifications</h2>
+                <h2 class="lang-zh" style="display: none;">技术规格</h2>
+                <table class="specs-table lang-en">
                     <tr>
                         <td><strong>Measurement Range</strong></td>
                         <td>10⁻⁴ to 50 mN/m</td>
@@ -178,47 +245,114 @@
                         <td>25 kg</td>
                     </tr>
                 </table>
+                <table class="specs-table lang-zh" style="display: none;">
+                    <tr>
+                        <td><strong>测量范围</strong></td>
+                        <td>10⁻⁴ 至 50 mN/m</td>
+                    </tr>
+                    <tr>
+                        <td><strong>精度</strong></td>
+                        <td>测量值的 ±1%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>温度范围</strong></td>
+                        <td>5°C 至 90°C</td>
+                    </tr>
+                    <tr>
+                        <td><strong>温度稳定性</strong></td>
+                        <td>±0.1°C</td>
+                    </tr>
+                    <tr>
+                        <td><strong>旋转速度</strong></td>
+                        <td>1,000 至 10,000 RPM</td>
+                    </tr>
+                    <tr>
+                        <td><strong>相机分辨率</strong></td>
+                        <td>500万像素微距镜头</td>
+                    </tr>
+                    <tr>
+                        <td><strong>样品体积</strong></td>
+                        <td>10-50 μL（液滴相）</td>
+                    </tr>
+                    <tr>
+                        <td><strong>数据输出</strong></td>
+                        <td>USB、以太网、CSV/Excel 导出</td>
+                    </tr>
+                    <tr>
+                        <td><strong>电源要求</strong></td>
+                        <td>110-240V AC，50/60 Hz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>尺寸</strong></td>
+                        <td>450 × 350 × 400 mm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>重量</strong></td>
+                        <td>25 kg</td>
+                    </tr>
+                </table>
             </div>
         </section>
 
         <section id="advantages" class="section">
             <div class="container">
-                <h2>Why Choose CNGTX-Scientific?</h2>
-                <blockquote>
+                <h2 class="lang-en">Why Choose CNGTX-Scientific?</h2>
+                <h2 class="lang-zh" style="display: none;">为什么选择 CNGTX-Scientific？</h2>
+                <blockquote class="lang-en">
                     <p>"Precision, reliability, and innovation are at the core of everything we do. Our Spinning Drop Tensometer represents decades of refinement in interfacial science instrumentation."</p>
                 </blockquote>
+                <blockquote class="lang-zh" style="display: none;">
+                    <p>"精确、可靠和创新是我们所做一切的核心。我们的旋转滴界面张力仪代表了界面科学仪器数十年的精炼成果。"</p>
+                </blockquote>
 
-                <h3>Our Commitment</h3>
-                <ul>
+                <h3 class="lang-en">Our Commitment</h3>
+                <h3 class="lang-zh" style="display: none;">我们的承诺</h3>
+                <ul class="lang-en">
                     <li><strong>Quality Assurance:</strong> Every instrument undergoes rigorous testing and calibration before delivery</li>
                     <li><strong>Technical Support:</strong> Dedicated team of scientists and engineers available for consultation</li>
                     <li><strong>Training:</strong> Comprehensive on-site or remote training programs</li>
                     <li><strong>Warranty:</strong> 2-year comprehensive warranty with optional extended coverage</li>
                     <li><strong>Regular Updates:</strong> Free software updates and improvements</li>
                 </ul>
+                <ul class="lang-zh" style="display: none;">
+                    <li><strong>质量保证：</strong>每台仪器在交付前都经过严格的测试和校准</li>
+                    <li><strong>技术支持：</strong>专业的科学家和工程师团队可提供咨询服务</li>
+                    <li><strong>培训：</strong>全面的现场或远程培训计划</li>
+                    <li><strong>保修：</strong>2年全面保修，可选延长保修</li>
+                    <li><strong>定期更新：</strong>免费软件更新和改进</li>
+                </ul>
             </div>
         </section>
 
         <section id="contact" class="section alternate">
             <div class="container">
-                <h2>Contact Us</h2>
-                <p>Ready to elevate your interfacial tension research? Get in touch with our team today.</p>
+                <h2 class="lang-en">Contact Us</h2>
+                <h2 class="lang-zh" style="display: none;">联系我们</h2>
+                <p class="lang-en">Ready to elevate your interfacial tension research? Get in touch with our team today.</p>
+                <p class="lang-zh" style="display: none;">准备提升您的界面张力研究水平？立即联系我们的团队。</p>
 
                 <div class="contact-info">
                     <div class="contact-item">
-                        <h3>Email</h3>
+                        <h3 class="lang-en">Email</h3>
+                        <h3 class="lang-zh" style="display: none;">电子邮件</h3>
                         <p><a href="mailto:info@cngtx-scientific.com">info@cngtx-scientific.com</a></p>
                     </div>
                     <div class="contact-item">
-                        <h3>Phone</h3>
+                        <h3 class="lang-en">Phone</h3>
+                        <h3 class="lang-zh" style="display: none;">电话</h3>
                         <p>+1 (555) 123-4567</p>
                     </div>
                     <div class="contact-item">
-                        <h3>Address</h3>
-                        <p>CNGTX-Scientific Laboratory Instruments<br>
+                        <h3 class="lang-en">Address</h3>
+                        <h3 class="lang-zh" style="display: none;">地址</h3>
+                        <p class="lang-en">CNGTX-Scientific Laboratory Instruments<br>
                         123 Science Park Drive<br>
                         Innovation District<br>
                         Research City, ST 12345</p>
+                        <p class="lang-zh" style="display: none;">CNGTX-Scientific 实验室仪器<br>
+                        科学园大道 123 号<br>
+                        创新区<br>
+                        研究城，ST 12345</p>
                     </div>
                 </div>
             </div>
@@ -227,9 +361,12 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 CNGTX-Scientific. All rights reserved.</p>
-            <p>Advancing interfacial science through precision instrumentation</p>
+            <p>&copy; 2025 CNGTX-Scientific. <span class="lang-en">All rights reserved.</span><span class="lang-zh" style="display: none;">保留所有权利。</span></p>
+            <p class="lang-en">Advancing interfacial science through precision instrumentation</p>
+            <p class="lang-zh" style="display: none;">通过精密仪器推进界面科学</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
