@@ -8,6 +8,8 @@ This website introduces the Spinning Drop Tensometer, a precision instrument for
 
 ## Features
 
+- **Bilingual Support**: Full English and Chinese language versions with one-click switching
+- **Language Persistence**: User's language preference is saved and remembered
 - **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
 - **Markdown-Style Formatting**: Clean, readable typography inspired by GitHub markdown rendering
 - **Comprehensive Product Information**: Detailed coverage of:
@@ -21,8 +23,9 @@ This website introduces the Spinning Drop Tensometer, a precision instrument for
 
 ```
 myappsample/
-├── index.html          # Main HTML file
+├── index.html          # Main HTML file with bilingual content
 ├── style.css           # Markdown-inspired styling
+├── script.js           # Language switcher JavaScript
 └── README.md          # This file
 ```
 
@@ -52,7 +55,8 @@ The website uses a markdown-inspired design approach:
 
 - HTML5
 - CSS3
-- No JavaScript dependencies (pure HTML/CSS)
+- Vanilla JavaScript (ES6+)
+- LocalStorage for language preference persistence
 - Responsive design with CSS Grid and Flexbox
 
 ## Color Scheme
@@ -66,6 +70,8 @@ The website uses a markdown-inspired design approach:
 ## Viewing the Website
 
 Simply open `index.html` in any modern web browser. No build process or server required.
+
+The website will default to English, but you can switch to Chinese using the language toggle button in the header. Your language preference will be remembered for future visits.
 
 ## Browser Compatibility
 
@@ -82,7 +88,7 @@ Potential additions:
 - Customer testimonials
 - Application notes and publications
 - Online quote request form
-- Multi-language support
+- Additional language support (Spanish, German, Japanese, etc.)
 
 ## License
 
